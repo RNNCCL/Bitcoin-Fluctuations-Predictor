@@ -1,0 +1,18 @@
+> git config --list => status
+> git status => status
+> git checkout branchname
+> git config --global user.name "user_name"
+> git config --global user.email "email_id"
+> git init Mytest => create repo
+
+Updating branch
+> git pull => to update local with online
+> git add/rm filename
+> git commit -m "some_message"
+> git push origin current_branch_name => equates online branch to local branch
+
+Merging branch with master
+
+> git fetch origin master => fetchs online origin/master
+> git merge master => updates local master to origin/master
+> git push origin currentbranchname:master
